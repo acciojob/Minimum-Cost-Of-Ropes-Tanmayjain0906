@@ -16,7 +16,7 @@ while(arr.length!=1)
     arr.push(sum);
 }
      const div = document.getElementById("result");
-	 div.innerText = ans;	
+	 div.innerHTML = ans;	
 }  
 
   
