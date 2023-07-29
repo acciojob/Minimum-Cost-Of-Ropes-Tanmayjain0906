@@ -15,6 +15,7 @@ while(arr.length!=1)
     arr.splice(0,2);
     arr.push(sum);
 }
+console.log(ans);
      const div = document.getElementById("result");
 	 div.innerHTML = ans;	
 }  
